@@ -1,0 +1,56 @@
+--- &id003 !ruby/object:Ariel::Node::Structure 
+children: 
+  :article_content: &id002 !ruby/object:Ariel::Node::Structure 
+    children: 
+      :byline_fields: &id001 !ruby/object:Ariel::Node::Structure 
+        children: 
+          :language: !ruby/object:Ariel::Node::Structure 
+            children: {}
+
+            node_name: :language
+            node_type: :not_list
+            parent: *id001
+          :other: !ruby/object:Ariel::Node::Structure 
+            children: {}
+
+            node_name: :other
+            node_type: :not_list
+            parent: *id001
+          :date: !ruby/object:Ariel::Node::Structure 
+            children: {}
+
+            node_name: :date
+            node_type: :not_list
+            parent: *id001
+        node_name: :byline_fields
+        node_type: :not_list
+        parent: *id002
+      :body: !ruby/object:Ariel::Node::Structure 
+        children: {}
+
+        node_name: :body
+        node_type: :not_list
+        parent: *id002
+      :headline: !ruby/object:Ariel::Node::Structure 
+        children: {}
+
+        node_name: :headline
+        node_type: :not_list
+        parent: *id002
+      :url: !ruby/object:Ariel::Node::Structure 
+        children: {}
+
+        node_name: :url
+        node_type: :not_list
+        parent: *id002
+      :tag: !ruby/object:Ariel::Node::Structure 
+        children: {}
+
+        node_name: :tag
+        node_type: :not_list
+        parent: *id002
+    node_name: :article_content
+    node_type: :not_list
+    parent: *id003
+node_name: :root
+node_type: :not_list
